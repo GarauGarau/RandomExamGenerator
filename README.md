@@ -20,20 +20,20 @@ You need two Excel sheets:
 - (Optional) For LaTeX exam generation, ensure you have a LaTeX distribution installed to compile the .tex files.
 
 ## Structure of Pre-existing Files:
-mcq_input1.xlsx:
-  Should contain the following columns:
-        - Question: Text of the MCQ.
-        - Option a: First option.
-        - Option b: Second option.
-        - Option c: Third option.
-        - Option d: Fourth option.
-        - Correct Answer: Letter (a, b, c, or d) indicating the correct answer.
-        - Image_Path: (Optional) Path to an image related to the question, if any.
+### mcq_input1.xlsx:
+#### Should contain the following columns:
+- Question: Text of the MCQ.
+- Option a: First option.
+- Option b: Second option.
+- Option c: Third option.
+- Option d: Fourth option.
+- Correct Answer: Letter (a, b, c, or d) indicating the correct answer.
+- Image_Path: (Optional) Path to an image related to the question, if any.
 
-open_input1.xlsx:
-    Should contain the following columns:
-        - Questions: Text of the open question.
-        - Image_Path: (Optional) Path to an image related to the question, if any.
+### open_input1.xlsx:
+#### Should contain the following columns:
+- Questions: Text of the open question.
+- Image_Path: (Optional) Path to an image related to the question, if any.
 
 ## How to use:
 Make sure the two Excel sheets (mcq_input1.xlsx and open_input1.xlsx) are in the same directory as the script.
