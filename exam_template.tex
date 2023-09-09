@@ -1,0 +1,17 @@
+\documentclass[12pt]{exam}
+\begin{document}
+\begin{questions}
+{% for question in questions %}
+    {% if question.type == 'mcq' %}
+        \question {{ question.text }}
+        \begin{choices}
+        {% for choice in question.choices %}
+            \choice {{ choice.letter }}. {{ choice.text }}
+        {% endfor %}
+        \end{choices}
+    {% else %}
+        \question {{ question.text }}
+    {% endif %}
+{% endfor %}
+\end{questions}
+\end{document}
