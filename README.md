@@ -21,7 +21,7 @@ You need two Excel sheets:
 
 ## Structure of Pre-existing Files:
 ### mcq_input1.xlsx:
-#### Should contain the following columns:
+Should contain the following columns:
 - Question: Text of the MCQ.
 - Option a: First option.
 - Option b: Second option.
@@ -31,7 +31,7 @@ You need two Excel sheets:
 - Image_Path: (Optional) Path to an image related to the question, if any.
 
 ### open_input1.xlsx:
-#### Should contain the following columns:
+Should contain the following columns:
 - Questions: Text of the open question.
 - Image_Path: (Optional) Path to an image related to the question, if any.
 
