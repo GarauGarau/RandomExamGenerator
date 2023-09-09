@@ -1,6 +1,7 @@
 # RandomExamGenerator
 This script automates the process of generating randomized exam papers. It uses a pool of questions from both multiple-choice questions (MCQ) and open questions. For each generated exam, solutions are also created. Moreover, it has the capability to include LaTeX exam copies alongside PDF.
-Features:
+
+## Features:
 - Random sampling of questions for variability across multiple exam copies.
 - Shuffle MCQ options to further randomize each exam.
 - Incorporate images associated with questions, if provided.
@@ -9,13 +10,14 @@ Features:
 ## Prerequisites:
 Make sure you have fpdf, pandas, PIL, and jinja2 libraries installed. If not, install them using:
 
+```bash
 pip install fpdf pandas pillow jinja2 openpyxl
+```
 
 You need two Excel sheets:
 - mcq_input1.xlsx: Contains MCQs.
 - open_input1.xlsx: Contains open questions.
-
-(Optional) For LaTeX exam generation, ensure you have a LaTeX distribution installed to compile the .tex files.
+- (Optional) For LaTeX exam generation, ensure you have a LaTeX distribution installed to compile the .tex files.
 
 ## Structure of Pre-existing Files:
 mcq_input1.xlsx:
