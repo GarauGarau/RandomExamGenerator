@@ -1,4 +1,4 @@
-# RandomExamGenerator
+# RandomExamGenerator 0.1.0-beta.1
 This script automates the process of generating randomized exam papers. It uses a pool of questions from both multiple-choice questions (MCQ) and open questions. For each generated exam, solutions are also created. Moreover, it has the capability to include LaTeX exam copies alongside PDF.
 
 ## Features:
